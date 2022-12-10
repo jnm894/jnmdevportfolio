@@ -280,7 +280,7 @@ li > a:hover{
             "content"
             "sidebar"
             "grid-footer";
-        grid-template-rows: 10% 78% 6% 6%;
+        grid-template-rows: 10% 75% 9% 6%;
         grid-template-columns: 100%;
     }
 
@@ -333,6 +333,11 @@ li > a:hover{
     .cvdownload{
         min-width: 70%;
         max-width: 100%;
+    }
+
+    .cvdownload:hover{
+        transition: 0.5s;
+        transform: scale(1.025);
     }
 
     #projects > .project{
