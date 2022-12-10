@@ -280,7 +280,7 @@ li > a:hover{
             "content"
             "sidebar"
             "grid-footer";
-        grid-template-rows: 10% 75% 9% 6%;
+        grid-template-rows: 10% 72% 11% 7%;
         grid-template-columns: 100%;
     }
 
