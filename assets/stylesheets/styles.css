@@ -111,8 +111,8 @@ a > img{
     display: flex;
     flex-direction: column;
     background-color: #eee;
-    padding: 1.5em;
-    border-radius: 1em;
+    padding: 1.5rem;
+    border-radius: 1rem;
     width: 99%;
     margin: 10px;
     font-size: 1.2rem;
@@ -226,6 +226,7 @@ li > a:hover{
     align-items: center;
     justify-content: flex-start;
     gap: 1.5rem;
+    padding: 3.5rem;
 }
 
 #projects > .project{
@@ -315,7 +316,7 @@ li > a:hover{
     }
 
     .section-container{
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 
     .section-container > div{
@@ -324,6 +325,25 @@ li > a:hover{
 
     #home > p{
         font-size: 1.1rem;
+    }
+
+    #about{
+        padding: 1rem;
+    }
+
+    .about-body{
+        min-width: 80%;
+        max-width: 95%;
+        padding: 0.5rem;
+        overflow: auto;
+    }
+
+    .about-body > h1{
+        font-size: 1.5rem;
+    }
+
+    .about-body > ul{
+        margin-left: 0.5rem;
     }
 
     #exp-educ > ul{
