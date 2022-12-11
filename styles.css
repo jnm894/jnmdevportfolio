@@ -338,7 +338,7 @@ li > a:hover{
         overflow: auto;
     }
 
-    #about > h1{
+    .about-body > h1{
         font-size: 1.5rem;
     }
 
